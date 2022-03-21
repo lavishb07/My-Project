@@ -1,0 +1,559 @@
+Script started on 2022-03-18 00:51:21+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda --versionbash Miniconda3.sh[3Pconda --version
+conda 4.11.0
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                  *  /home/lavishb07/miniconda3
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+--2022-03-18 00:53:24--  https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.131.3, 104.16.130.3, 2606:4700::6810:8303, ...
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.131.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47104301 (45M) [application/x-sh]
+Saving to: ‘Miniconda3-latest-MacOSX-arm64.sh’
+
+Miniconda3-latest-MacOSX-arm6   0%[                                                  ]       0  --.-KB/s               Miniconda3-latest-MacOSX-arm6   3%[>                                                 ]   1.76M  7.46MB/s               Miniconda3-latest-MacOSX-arm6   4%[=>                                                ]   1.81M  3.11MB/s               Miniconda3-latest-MacOSX-arm6  13%[=====>                                            ]   6.08M  7.63MB/s               Miniconda3-latest-MacOSX-arm6  15%[======>                                           ]   6.76M  6.67MB/s               Miniconda3-latest-MacOSX-arm6  18%[========>                                         ]   8.17M  6.34MB/s               Miniconda3-latest-MacOSX-arm6  27%[============>                                     ]  12.44M  8.35MB/s               Miniconda3-latest-MacOSX-arm6  31%[==============>                                   ]  14.14M  8.37MB/s               Miniconda3-latest-MacOSX-arm6  35%[================>                                 ]  15.79M  8.07MB/s               Miniconda3-latest-MacOSX-arm6  37%[=================>                                ]  16.69M  7.73MB/s               Miniconda3-latest-MacOSX-arm6  44%[=====================>                            ]  19.87M  8.42MB/s               Miniconda3-latest-MacOSX-arm6  48%[=======================>                          ]  21.59M  8.43MB/s               Miniconda3-latest-MacOSX-arm6  51%[========================>                         ]  22.98M  8.33MB/s               Miniconda3-latest-MacOSX-arm6  54%[==========================>                       ]  24.45M  8.23MB/s               Miniconda3-latest-MacOSX-arm6  59%[============================>                     ]  26.83M  8.46MB/s    eta 2s     Miniconda3-latest-MacOSX-arm6  63%[==============================>                   ]  28.56M  8.47MB/s    eta 2s     Miniconda3-latest-MacOSX-arm6  67%[================================>                 ]  30.22M  8.45MB/s    eta 2s     Miniconda3-latest-MacOSX-arm6  71%[==================================>               ]  31.92M  8.50MB/s    eta 2s     Miniconda3-latest-MacOSX-arm6  74%[====================================>             ]  33.67M  9.39MB/s    eta 2s     Miniconda3-latest-MacOSX-arm6  78%[======================================>           ]  35.40M  8.67MB/s    eta 1s     Miniconda3-latest-MacOSX-arm6  82%[========================================>         ]  37.12M  9.42MB/s    eta 1s     Miniconda3-latest-MacOSX-arm6  85%[=========================================>        ]  38.42M  8.40MB/s    eta 1s     Miniconda3-latest-MacOSX-arm6  87%[==========================================>       ]  39.48M  8.02MB/s    eta 1s     Miniconda3-latest-MacOSX-arm6  95%[==============================================>   ]  42.69M  8.28MB/s    eta 1s     Miniconda3-latest-MacOSX-arm6 100%[=================================================>]  44.92M  8.66MB/s    in 5.3s    
+
+2022-03-18 00:53:29 (8.44 MB/s) - ‘Miniconda3-latest-MacOSX-arm64.sh’ saved [47104301/47104301]
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ ex[[Kplorer.exe e[K.4[K
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ [K(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda create --name demo
+Collecting package metadata (current_repodata.json): - \ done
+Solving environment: / done
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda deactivate
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda deactivatecreate --name demo
+Collecting package metadata (current_repodata.json): - \ done
+Solving environment: / done
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda activate v[Kbase
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda activate basecreate --name demo[8Pdeactivate
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/lavishb07/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             4.5                       1_gnu  
+brotlipy                  0.7.0           py39h27cfd23_1003  
+ca-certificates           2021.10.26           h06a4308_2  
+certifi                   2021.10.8        py39h06a4308_2  
+cffi                      1.15.0           py39hd667e15_1  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     4.11.0           py39h06a4308_0  
+conda-content-trust       0.1.1              pyhd3eb1b0_0  
+conda-package-handling    1.7.3            py39h27cfd23_1  
+cryptography              36.0.0           py39h9ce1e76_0  
+idna                      3.3                pyhd3eb1b0_0  
+ld_impl_linux-64          2.35.1               h7274673_9  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.3.0               h5101ec6_17  
+libgomp                   9.3.0               h5101ec6_17  
+libstdcxx-ng              9.3.0               hd4cf53a_17  
+ncurses                   6.3                  h7f8727e_2  
+openssl                   1.1.1m               h7f8727e_0  
+pip                       21.2.4           py39h06a4308_0  
+pycosat                   0.6.3            py39h27cfd23_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 21.0.0             pyhd3eb1b0_1  
+pysocks                   1.7.1            py39h06a4308_0  
+python                    3.9.7                h12debd9_1  
+readline                  8.1.2                h7f8727e_1  
+requests                  2.27.1             pyhd3eb1b0_0  
+ruamel_yaml               0.15.100         py39h27cfd23_0  
+setuptools                58.0.4           py39h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_0  
+sqlite                    3.37.0               hc218d9a_0  
+tk                        8.6.11               h1ccaba5_0  
+tqdm                      4.62.3             pyhd3eb1b0_1  
+tzdata                    2021e                hda174b7_0  
+urllib3                   1.26.7             pyhd3eb1b0_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7b6447c_0  
+yaml                      0.2.5                h7b6447c_0  
+zlib                      1.2.11               h7f8727e_4  
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda listdeactivateactivate base[K[K[K[K[K
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda activate[4Plistdeactivate
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda deactivate[2Pactivate[4Plistdeactivateactivate basecreate --name demo[8Pdeactivatecreate --name demo[10Pexplorer.exe .wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda info --envs[Kupdate conda[1Pinfo --envs
+# conda environments:
+#
+base                  *  /home/lavishb07/miniconda3
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda create new_python python[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython --version
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ python --versionconda info --envs[1Pdeactivateinfo --envs[1Ppython --version[Kpython --version[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3 --version
+Python 3.8.10
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ python3 --version[1P --versionconda info --envs[1Ppython --version3 --version[Kcod[Knda create new_pythpn[K[Kon python=3.9
+
+CondaValueError: The target prefix is the base prefix. Aborting.
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda create new_python python=3.9[C[C[C[C[1@-[1@-[C[1@n[1@a[1@m[1@e[1@ 
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ onda config --set ssl_verify no
+onda: command not found
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ onda config --set ssl_verify no[1@c
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda config --set ssl_verify no[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda create --name new_python python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda config --set ssl_verify ye
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda config --set ssl_verify yes
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda config --set ssl_verify yes[Kreate --name new_python python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda config --set ssl_verify false
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda config --set ssl_verify falsereate --name new_python python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdown
+
+Command 'wsl' not found, but can be installed with:
+
+sudo apt install wsl
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdownconda create --name new_python python=3.9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27Pwsl --shutdown[Ksudo apt install wsl
+[sudo] password for lavishb07: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxml2-utils xsltproc
+The following NEW packages will be installed:
+  libxml2-utils wsl xsltproc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 71.5 kB of archives.
+After this operation, 480 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Ign:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+[33m                        0% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu focal/universe amd64 wsl all 0.2.1-1 [20.1 kB]
+[33m13% [Connecting to security.ubuntu.com] [2 wsl 12.0 kB/20.1 kB 60%][0m[33m                                                                   29% [Connecting to security.ubuntu.com (91.189.91.38)][0m                                                      Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 xsltproc amd64 1.1.34-4 [14.3 kB]
+[33m45% [Connecting to security.ubuntu.com (91.189.91.38)] [3 xsltproc 14.3 kB/14.3 kB 100%][0m[33m                                                                                        52% [Connecting to security.ubuntu.com (91.189.91.38)][0m[33m                                                      52% [Waiting for headers][0m                         Err:1 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+  404  Not Found [IP: 91.189.88.152 80]
+[33m                         52% [Working][0m             Fetched 34.4 kB in 2s (17.2 kB/s)
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2-utils_2.9.10+dfsg-5ubuntu0.20.04.1_amd64.deb  404  Not Found [IP: 91.189.88.152 80][0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ sudo apt install wsl[6Pwsl --shutdown
+
+Command 'wsl' not found, but can be installed with:
+
+sudo apt install wsl
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ explorer.exe .
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdown[C
+
+Command 'wsl' not found, but can be installed with:
+
+sudo apt install wsl
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdownexplorer.exe .wsl --shutdownsudo apt install wsl
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxml2-utils xsltproc
+The following NEW packages will be installed:
+  libxml2-utils wsl xsltproc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 37.1 kB/71.5 kB of archives.
+After this operation, 480 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m52% [Working][0m             Ign:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+[33m52% [Working][0m[33m52% [Connecting to security.ubuntu.com (91.189.88.152)][0m                                                       Err:1 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+  404  Not Found [IP: 91.189.88.152 80]
+[33m                                                       52% [Working][0m             [1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2-utils_2.9.10+dfsg-5ubuntu0.20.04.1_amd64.deb  404  Not Found [IP: 91.189.88.152 80][0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ sudo apt install wsl[1@-[1@g[1@e[1@t
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxml2-utils xsltproc
+The following NEW packages will be installed:
+  libxml2-utils wsl xsltproc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 37.1 kB/71.5 kB of archives.
+After this operation, 480 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+52% [Working]52% [Waiting for headers]                         Ign:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+                         52% [Working]52% [Connecting to security.ubuntu.com (91.189.88.152)]                                                       Err:1 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+  404  Not Found [IP: 91.189.88.152 80]
+                                                       52% [Working]             E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2-utils_2.9.10+dfsg-5ubuntu0.20.04.1_amd64.deb  404  Not Found [IP: 91.189.88.152 80]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ sudo apt-get install wsl[4P[C[C[C[C[C[C[C[C[C[C[C[C[6Pwsl --shutdown
+
+Command 'wsl' not found, but can be installed with:
+
+sudo apt install wsl
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdownsudo apt-get install wsl[4P[C[C[C[C[C[C[C[C[C[C[C[C -fix-missing-fix-missing
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxml2-utils xsltproc
+The following NEW packages will be installed:
+  libxml2-utils wsl xsltproc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 37.1 kB/71.5 kB of archives.
+After this operation, 480 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m52% [Working][0m             Ign:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m[33m52% [Working][0m             Err:1 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+  404  Not Found [IP: 91.189.88.152 80]
+[33m52% [Working][0m             Unable to correct missing packages.
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2-utils_2.9.10+dfsg-5ubuntu0.20.04.1_amd64.deb  404  Not Found [IP: 91.189.88.152 80][0m
+[1;31mE: [0mAborting install.[0m
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ apt-get update
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ apt-get updatesudo apt install wsl --fix-missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pwsl --shutdownsudo apt install wsl --fix-missing[K[K[K[K[K[K[K[K[K[K[K[K[K[1@-[1@-[1@f[C[1@i[1@x[1@-[1@m[C[1@i[1@s[1@s[C[1@i[1@n[1@g[1@ 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxml2-utils xsltproc
+The following NEW packages will be installed:
+  libxml2-utils wsl xsltproc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 37.1 kB/71.5 kB of archives.
+After this operation, 480 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m52% [Working][0m[33m52% [Waiting for headers][0m                         Ign:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+[33m                         52% [Working][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Connecting to security.ubuntu.com][0m[33m52% [Waiting for headers]                                                                                                                                   5661 B/s 6s[0m[33m52% [Waiting for headers]                                                                                                                                   5661 B/s 6s[0m[33m52% [Waiting for headers]                                                                                                                                   5661 B/s 6s[0m                                                                                                                                                                       Err:1 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.1
+  404  Not Found [IP: 91.189.88.142 80]
+[33m52% [Working]                                                                                                                                               5661 B/s 6s[0m                                                                                                                                                                       Unable to correct missing packages.
+[1;31mE: [0mFailed to fetch http://security.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2-utils_2.9.10+dfsg-5ubuntu0.20.04.1_amd64.deb  404  Not Found [IP: 91.189.88.142 80][0m
+[1;31mE: [0mAborting install.[0m
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ sudo apt update
+[33m0% [Working][0m            Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+[33m0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+[33m0% [Waiting for headers] [2 InRelease 65.2 kB/114 kB 57%][0m[33m                                                         0% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+[33m0% [3 InRelease 65.0 kB/114 kB 57%][0m[33m                                   0% [Working][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+[33m0% [4 InRelease 16.5 kB/108 kB 15%] [Waiting for headers][0m[33m                                                         0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m18% [Waiting for headers] [Waiting for headers][0m[33m18% [Waiting for headers] [Waiting for headers][0m[33m18% [Waiting for headers] [Waiting for headers][0m[33m18% [Waiting for headers] [Waiting for headers][0m[33m18% [Waiting for headers] [Waiting for headers][0m[33m18% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 2min 22s[0m[33m18% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 2min 22s[0m[33m18% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 2min 22s[0m[33m18% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 2min 22s[0m                                                                                                                                                                       Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1642 kB]
+[33m18% [5 Packages 38.9 kB/1642 kB 2%] [Waiting for headers]                                                                                            52.4 kB/s 2min 22s[0m                                                                                                                                                                       Get:6 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1317 kB]
+[33m19% [5 Packages 65.5 kB/1642 kB 4%] [6 Packages 16.8 kB/1317 kB 1%]                                                                                  52.4 kB/s 2min 21s[0m[33m44% [5 Packages 1286 kB/1642 kB 78%] [6 Packages 1257 kB/1317 kB 95%]                                                                                52.4 kB/s 1min 34s[0m[33m45% [5 Packages 1385 kB/1642 kB 84%] [6 Packages 1265 kB/1317 kB 96%]                                                                                52.4 kB/s 1min 32s[0m[33m47% [5 Packages 1538 kB/1642 kB 94%]                                                                                                                 52.4 kB/s 1min 28s[0m[33m47% [6 Packages store 0 B] [5 Packages 1538 kB/1642 kB 94%]                                                                                          52.4 kB/s 1min 28s[0m[33m48% [5 Packages 1590 kB/1642 kB 97%] [Connecting to security.ubuntu.com (91.189.88.152)]                                                             52.4 kB/s 1min 27s[0m[33m48% [5 Packages 1594 kB/1642 kB 97%] [Waiting for headers]                                                                                           52.4 kB/s 1min 27s[0m[33m48% [Waiting for headers]                                                                                                                            52.4 kB/s 1min 26s[0m[33m48% [5 Packages store 0 B] [Waiting for headers]                                                                                                     52.4 kB/s 1min 26s[0m[33m49% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 26s[0m[33m49% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 26s[0m                                                                                                                                                                       Get:7 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [231 kB]
+[33m49% [Waiting for headers] [7 Translation-en 65.3 kB/231 kB 28%]                                                                                      52.4 kB/s 1min 25s[0m[33m51% [Waiting for headers]                                                                                                                            52.4 kB/s 1min 22s[0m[33m51% [7 Translation-en store 0 B] [Waiting for headers] [Waiting for headers]                                                                         52.4 kB/s 1min 22s[0m[33m51% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 22s[0m                                                                                                                                                                       Get:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [9804 B]
+[33m51% [Waiting for headers] [8 Commands-amd64 9804 B/9804 B 100%]                                                                                      52.4 kB/s 1min 21s[0m[33m51% [Waiting for headers]                                                                                                                            52.4 kB/s 1min 21s[0m[33m51% [8 Commands-amd64 store 0 B] [Waiting for headers] [Waiting for headers]                                                                         52.4 kB/s 1min 21s[0m[33m52% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 21s[0m[33m52% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 21s[0m                                                                                                                                                                       Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [312 kB]
+[33m52% [9 Translation-en 65.3 kB/312 kB 21%] [Waiting for headers]                                                                                      52.4 kB/s 1min 20s[0m[33m55% [Waiting for headers]                                                                                                                            52.4 kB/s 1min 15s[0m[33m55% [9 Translation-en store 0 B] [Waiting for headers] [Waiting for headers]                                                                         52.4 kB/s 1min 15s[0m[33m55% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 15s[0m                                                                                                                                                                       Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [14.8 kB]
+[33m55% [10 Commands-amd64 14.8 kB/14.8 kB 100%] [Waiting for headers]                                                                                   52.4 kB/s 1min 15s[0m[33m55% [Waiting for headers]                                                                                                                            52.4 kB/s 1min 15s[0m[33m55% [10 Commands-amd64 store 0 B] [Waiting for headers] [Waiting for headers]                                                                        52.4 kB/s 1min 15s[0m[33m55% [Waiting for headers] [Waiting for headers]                                                                                                      52.4 kB/s 1min 15s[0m[33m55% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 7s[0m[33m55% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 7s[0m[33m55% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 7s[0m[33m55% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 7s[0m                                                                                                                                                                       Get:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [799 kB]
+[33m56% [Waiting for headers] [11 Packages 20.9 kB/799 kB 3%]                                                                                                   556 kB/s 7s[0m[33m64% [Waiting for headers]                                                                                                                                   556 kB/s 5s[0m[33m64% [11 Packages store 0 B] [Waiting for headers] [Waiting for headers]                                                                                     556 kB/s 5s[0m[33m64% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 5s[0m                                                                                                                                                                       Get:12 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [114 kB]
+[33m64% [Waiting for headers] [12 Translation-en 8383 B/114 kB 7%]                                                                                              556 kB/s 5s[0m[33m65% [Waiting for headers]                                                                                                                                   556 kB/s 5s[0m[33m65% [12 Translation-en store 0 B] [Waiting for headers] [Waiting for headers]                                                                               556 kB/s 5s[0m                                                                                                                                                                       Get:13 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [853 kB]
+[33m66% [12 Translation-en store 0 B] [13 Packages 65.5 kB/853 kB 8%] [Waiting for headers]                                                                     556 kB/s 5s[0m[33m74% [12 Translation-en store 0 B] [Waiting for headers]                                                                                                     556 kB/s 3s[0m[33m74% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 3s[0m[33m74% [13 Packages store 0 B] [Waiting for headers] [Waiting for headers]                                                                                     556 kB/s 3s[0m[33m74% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 3s[0m                                                                                                                                                                       Get:14 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [122 kB]
+[33m75% [14 Translation-en 64.2 kB/122 kB 53%] [Waiting for headers]                                                                                            556 kB/s 3s[0m[33m75% [Waiting for headers]                                                                                                                                   556 kB/s 3s[0m[33m75% [14 Translation-en store 0 B] [Waiting for headers] [Waiting for headers]                                                                               556 kB/s 3s[0m[33m76% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 3s[0m[33m76% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 3s[0m[33m76% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 3s[0m                                                                                                                                                                       Get:15 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [692 kB]
+[33m76% [Waiting for headers] [15 Packages 25.4 kB/692 kB 4%]                                                                                                   556 kB/s 3s[0m[33m83% [Waiting for headers]                                                                                                                                   556 kB/s 2s[0m[33m83% [15 Packages store 0 B] [Waiting for headers] [Waiting for headers]                                                                                     556 kB/s 2s[0m[33m83% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 2s[0m                                                                                                                                                                       Get:16 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [121 kB]
+[33m84% [Waiting for headers] [16 Translation-en 54.4 kB/121 kB 45%]                                                                                            556 kB/s 2s[0m[33m84% [Waiting for headers]                                                                                                                                   556 kB/s 2s[0m[33m84% [16 Translation-en store 0 B] [Waiting for headers] [Waiting for headers]                                                                               556 kB/s 2s[0m[33m84% [Waiting for headers] [Waiting for headers]                                                                                                             556 kB/s 2s[0m                                                                                                                                                                       Get:17 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [14.0 kB]
+[33m85% [Waiting for headers] [17 Commands-amd64 14.0 kB/14.0 kB 100%]                                                                                          556 kB/s 2s[0m[33m85% [Waiting for headers]                                                                                                                                   556 kB/s 2s[0m[33m85% [17 Commands-amd64 store 0 B] [Waiting for headers]                                                                                                     556 kB/s 2s[0m[33m85% [Waiting for headers]                                                                                                                                   556 kB/s 2s[0m[33m85% [Waiting for headers]                                                                                                                                   437 kB/s 2s[0m                                                                                                                                                                       Get:18 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [910 kB]
+[33m85% [18 Packages 7661 B/910 kB 1%]                                                                                                                          437 kB/s 2s[0m[33m94% [Working]                                                                                                                                               437 kB/s 0s[0m[33m94% [18 Packages store 0 B] [Waiting for headers]                                                                                                           437 kB/s 0s[0m[33m94% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m[33m94% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:19 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [202 kB]
+[33m95% [19 Translation-en 14.9 kB/202 kB 7%]                                                                                                                   437 kB/s 0s[0m[33m96% [Working]                                                                                                                                               437 kB/s 0s[0m[33m96% [19 Translation-en store 0 B] [Waiting for headers]                                                                                                     437 kB/s 0s[0m[33m97% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:20 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [20.3 kB]
+[33m97% [20 Commands-amd64 9221 B/20.3 kB 46%]                                                                                                                  437 kB/s 0s[0m[33m97% [Working]                                                                                                                                               437 kB/s 0s[0m[33m97% [20 Commands-amd64 store 0 B] [Waiting for headers]                                                                                                     437 kB/s 0s[0m[33m97% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:21 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [23.8 kB]
+[33m97% [21 Packages 23.8 kB/23.8 kB 100%]                                                                                                                      437 kB/s 0s[0m[33m97% [Working]                                                                                                                                               437 kB/s 0s[0m[33m97% [21 Packages store 0 B] [Waiting for headers]                                                                                                           437 kB/s 0s[0m[33m98% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:22 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [580 B]
+[33m98% [22 Commands-amd64 580 B/580 B 100%]                                                                                                                    437 kB/s 0s[0m[33m98% [Working]                                                                                                                                               437 kB/s 0s[0m[33m98% [22 Commands-amd64 store 0 B] [Waiting for headers]                                                                                                     437 kB/s 0s[0m[33m98% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:23 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [42.2 kB]
+[33m98% [23 Packages 29.5 kB/42.2 kB 70%]                                                                                                                       437 kB/s 0s[0m[33m98% [Working]                                                                                                                                               437 kB/s 0s[0m[33m98% [23 Packages store 0 B] [Waiting for headers]                                                                                                           437 kB/s 0s[0m[33m99% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:24 http://archive.ubuntu.com/ubuntu focal-backports/main Translation-en [10.1 kB]
+[33m99% [24 Translation-en 10.1 kB/10.1 kB 100%]                                                                                                                437 kB/s 0s[0m[33m99% [Working]                                                                                                                                               437 kB/s 0s[0m[33m99% [24 Translation-en store 0 B] [Waiting for headers]                                                                                                     437 kB/s 0s[0m[33m99% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:25 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [22.7 kB]
+[33m99% [25 Packages 22.7 kB/22.7 kB 100%]                                                                                                                      437 kB/s 0s[0m[33m99% [Working]                                                                                                                                               437 kB/s 0s[0m[33m99% [25 Packages store 0 B] [Waiting for headers]                                                                                                           437 kB/s 0s[0m[33m99% [Waiting for headers]                                                                                                                                   437 kB/s 0s[0m                                                                                                                                                                       Get:26 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [15.4 kB]
+[33m100% [26 Translation-en 15.4 kB/15.4 kB 100%]                                                                                                               437 kB/s 0s[0m[33m100% [Working]                                                                                                                                              437 kB/s 0s[0m[33m100% [26 Translation-en store 0 B] [Waiting for headers]                                                                                                    437 kB/s 0s[0m[33m100% [Waiting for headers]                                                                                                                                  437 kB/s 0s[0m                                                                                                                                                                       Get:27 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [804 B]
+[33m100% [27 Commands-amd64 804 B/804 B 100%]                                                                                                                   437 kB/s 0s[0m[33m100% [Working]                                                                                                                                              437 kB/s 0s[0m[33m100% [27 Commands-amd64 store 0 B]                                                                                                                          437 kB/s 0s[0m[33m100% [Working]                                                                                                                                              437 kB/s 0s[0m                                                                                                                                                                       Fetched 7825 kB in 22s (355 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 32%Reading package lists... 41%Reading package lists... 41%Reading package lists... 60%Reading package lists... 60%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 67%Reading package lists... 67%Reading package lists... 71%Reading package lists... 71%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 78%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+39 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ sudo apt update--fix-missing install wsl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Papt-get updatesudo apt install wsl --fix-missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pwsl --shutdownsudo apt-get install wsl
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libxml2-utils xsltproc
+The following NEW packages will be installed:
+  libxml2-utils wsl xsltproc
+0 upgraded, 3 newly installed, 0 to remove and 39 not upgraded.
+Need to get 37.1 kB/71.5 kB of archives.
+After this operation, 480 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+52% [Working]52% [Waiting for headers]                         Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxml2-utils amd64 2.9.10+dfsg-5ubuntu0.20.04.2 [37.1 kB]
+93% [1 libxml2-utils 37.1 kB/37.1 kB 100%]                                          100% [Working]              Fetched 37.1 kB in 1s (40.3 kB/s)
+Selecting previously unselected package libxml2-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32322 files and directories currently installed.)
+Preparing to unpack .../libxml2-utils_2.9.10+dfsg-5ubuntu0.20.04.2_amd64.deb ...
+Unpacking libxml2-utils (2.9.10+dfsg-5ubuntu0.20.04.2) ...
+Selecting previously unselected package wsl.
+Preparing to unpack .../archives/wsl_0.2.1-1_all.deb ...
+Unpacking wsl (0.2.1-1) ...
+Selecting previously unselected package xsltproc.
+Preparing to unpack .../xsltproc_1.1.34-4_amd64.deb ...
+Unpacking xsltproc (1.1.34-4) ...
+Setting up xsltproc (1.1.34-4) ...
+Setting up libxml2-utils (2.9.10+dfsg-5ubuntu0.20.04.2) ...
+Setting up wsl (0.2.1-1) ...
+Processing triggers for man-db (2.9.1-1) ...
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdown
+Unknown command: --shutdown
+[0;35mWSL
+Wsman Shell commandLine, version 0.2.1
+
+USAGE: wsl COMMAND [PARAMS...]
+
+COMMANDS:
+identify  - WS-Identify
+enum      - WS-Enumerate
+get       - WS-Get
+put       - WS-Put
+invoke    - WS-Invoke
+xclean    - Delete all files generated by this tool set
+xcred     - Create or display credential file
+xcert     - Get server certificate (saved to <IPADDRESS>.crt)
+
+PARAMS specification is specific to a COMMAND. 
+
+Output will be saved to ./response.xml. If you want to run parallel 
+executions in the same directory, define RTFILEPREFIX in the environment. 
+Doing so may significantly increase files generated.
+
+Requires: curl, xmllint, GNU core utilities.
+Optional: xsltproc for output formatting, gpg for encrypted credential.
+Optional: wget as alternate for curl when not available. 
+[0;39m]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ 
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ 
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ 
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ 
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdownsudo apt-get install wsl[9P update--fix-missing install wsl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Papt-get updatesudo apt install wsl --fix-missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pwsl --shutdownsudo apt install wsl --fix-missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Papt-get updatesudo apt --fix-missing install wsl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Papt-get updatesudo apt --fix-missing install wsl update[K-get install wsl[10Pwsl --shutdownsudo apt-get install wsl[10Pwsl --shutdown[Kwsl --shutdownsudo apt-get install wsl[9P update
+[33m0% [Working][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+[33m                                              0% [Waiting for headers][0m                        Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+[33m0% [Waiting for headers][0m                        Hit:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+[33m                        0% [Working][0m            Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 33%^[[AReading package lists... 41%Reading package lists... 41%Reading package lists... 60%Reading package lists... 60%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 61%Reading package lists... 67%Reading package lists... 67%^[[AReading package lists... 71%Reading package lists... 71%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%^[[AReading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+39 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ sudo apt update[1Pwsl --shutdownsudo apt-get install wsl[10Pwsl --shutdownsudo apt-get install wsl[9P update--fix-missing install wsl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Papt-get updatesudo apt install wsl --fix-missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pwsl --shutdownsudo apt-get install wsl[4P[C[C[C[C[C[C[C[C[C[C[C[C[6Pwsl --shutdownexplorer.exe .wsl --shutdownsudo apt install wsl[6Pwsl --shutdownconda create --name new_python python=3.9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Ponfig --set ssl_verify falsereate --name new_python python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda create --name new_python python=3.9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Psudo apt update[1Pwsl --shutdownsudo apt-get install wsl[10Pwsl --shutdown
+Unknown command: --shutdown
+[0;35mWSL
+Wsman Shell commandLine, version 0.2.1
+
+USAGE: wsl COMMAND [PARAMS...]
+
+COMMANDS:
+identify  - WS-Identify
+enum      - WS-Enumerate
+get       - WS-Get
+put       - WS-Put
+invoke    - WS-Invoke
+xclean    - Delete all files generated by this tool set
+xcred     - Create or display credential file
+xcert     - Get server certificate (saved to <IPADDRESS>.crt)
+
+PARAMS specification is specific to a COMMAND. 
+
+Output will be saved to ./response.xml. If you want to run parallel 
+executions in the same directory, define RTFILEPREFIX in the environment. 
+Doing so may significantly increase files generated.
+
+Requires: curl, xmllint, GNU core utilities.
+Optional: xsltproc for output formatting, gpg for encrypted credential.
+Optional: wget as alternate for curl when not available. 
+[0;39m]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ wsl --shutdown
+Unknown command: --shutdown
+[0;35mWSL
+Wsman Shell commandLine, version 0.2.1
+
+USAGE: wsl COMMAND [PARAMS...]
+
+COMMANDS:
+identify  - WS-Identify
+enum      - WS-Enumerate
+get       - WS-Get
+put       - WS-Put
+invoke    - WS-Invoke
+xclean    - Delete all files generated by this tool set
+xcred     - Create or display credential file
+xcert     - Get server certificate (saved to <IPADDRESS>.crt)
+
+PARAMS specification is specific to a COMMAND. 
+
+Output will be saveScript started on 2022-03-18 01:29:58+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda deactivatels[Krm Miniconda3-latest-Linux-x86_64.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -rf ~/miniconda3conda create --name new_python python=3.9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwsl -shutdown[K-shutdownconda create --name new_python python=3.9deactivate[K[1P--version[2Pversionactivatebash Miniconda3-latest-Linux-x86_64.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pconda activatebash Miniconda3-latest-Linux-x86_64.sh [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pconda activate--versionls[Krm -rf ~/miniconda3ls[Krm -rf ~/anaconda3 conda install anaconda-clean[10Pupdate condaconfig --set ssl_verify Falsereate --name new_python python=3.9--version[K[2Pversiondeactivatecreate --name new_python python=3.9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pscript -a ~/my_conda_session[14Pwsl --shutdownscript -a ~/my_conda_session[14Pwsl --shutdownconda create --name new_python python=3.9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Psudo apt update[1Pwsl --shutdownsudo apt-get install wsl[9P update--fix-missing install wsl [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Papt-get updatesudo apt install wsl --fix-missing[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pwsl --shutdownsudo apt-get install wsl[4P[C[C[C[C[C[C[C[C[C[C[C[C[6Pwsl --shutdownexplorer.exe .wsl --shutdownsudo apt install wsl[6Pwsl --shutdownconda create --name new_python python=3.9[6Ponfig --set ssl_verify falsereate --name new_python python=3.9[8Ponfig --set ssl_verify yes[Kreate --name new_python python=3.9[9Ponfig --set ssl_verify no[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda create --name new_python python=3.9[7P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Ppython3 --version[1P --versionconda info --envs[1Pdeactivate[K[K[K[K[K[K[K[K[K[K--info
+usage: conda [-h] [-V] command ...
+conda: error: the following arguments are required: command
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda --info envs
+
+CommandNotFoundError: No command 'conda envs'.
+Did you mean 'conda env'?
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda --info envs[K[K[K[K[K[K[K[K[K[K[Kenv
+usage: conda-env [-h] {create,export,list,remove,update} ...
+
+positional arguments:
+  {create,export,list,remove,update}
+    create              Create an environment based on an environment file
+    export              Export a given environment
+    list                List the Conda environments
+    remove              Remove an environment
+    update              Update the current environment based on environment
+                        file
+
+optional arguments:
+  -h, --help            Show this help message and exit.
+
+conda commands available from other packages:
+  env
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$  conda envienvnenvfenvoenv env-env-env[C[C[Cs
+# conda environments:
+#
+base                  *  /home/lavishb07/miniconda3
+new_python               /home/lavishb07/miniconda3/envs/new_python
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ python3 --version
+Python 3.7.4
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda deactivate
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda activate 
+.bash_history                        .lesshst                             miniconda3/
+.bash_logout                         .local/                              my_conda_session
+.bashrc                              .motd_shown                          my_git_session
+.conda/                              .profile                             my_project/
+.condarc                             .sudo_as_admin_successful            my_unix_session
+.gitconfig                           .wsl-config                          mylibgit/
+.landscape/                          Miniconda3-4.7.12.1-Linux-x86_64.sh  shell-lesson-data/
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda activate new_python
+(new_python) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda version-version-version
+conda 4.7.12
+(new_python) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda --versionactivate new_python[9Pdeactivatepython3 --version
+Python 3.9.7
+(new_python) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ python3 --version[1P --version
+Python 3.9.7
+(new_python) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda da[Keactivaye[K[Kte
+]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ conda activea[K[Kate
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ exc[K[Kcho @[K$path
+
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ echo $pathDDDD[K[K[K[K[K[K[K[KPATH
+/home/lavishb07/miniconda3/bin:/home/lavishb07/miniconda3/condabin:/home/lavishb07/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_2004.2022.1.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Users/lavish.bansal/Anaconda3:/mnt/c/Users/lavish.bansal/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/lavish.bansal/Anaconda3/Library/usr/bin:/mnt/c/Users/lavish.bansal/Anaconda3/Library/bin:/mnt/c/Users/lavish.bansal/Anaconda3/Scripts:/mnt/c/Users/lavish.bansal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lavish.bansal/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ [K(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ which python
+/home/lavishb07/miniconda3/bin/python
+(base) ]0;lavishb07@TIGER01702: ~[01;32mlavishb07@TIGER01702[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-03-18 01:34:43+05:30 [COMMAND_EXIT_CODE="0"]
